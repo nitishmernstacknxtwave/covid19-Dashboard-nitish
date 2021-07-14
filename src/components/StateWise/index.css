@@ -1,0 +1,53 @@
+.each-state-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.state-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  width: 135px;
+  text-align: center;
+  line-height: 24px;
+  color: #f1f5f9;
+}
+
+.stat {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100px;
+  text-align: center;
+}
+.stat-2 {
+  color: #ff073a;
+}
+
+.stat-3 {
+  color: #007bff;
+}
+
+.stat-4 {
+  color: #28a745;
+}
+
+.stat-5 {
+  color: #6c757d;
+}
+
+.stat-6 {
+  color: #94a3b8;
+}
+
+@media (max-width: 767px) {
+  .state-name {
+    width: 135px;
+  }
+}

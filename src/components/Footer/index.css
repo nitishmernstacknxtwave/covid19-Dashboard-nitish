@@ -1,0 +1,74 @@
+.footer-section {
+  margin-top: 120px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.covid-image {
+  width: 170px;
+  height: 25px;
+}
+.social-logos {
+  margin-top: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.github {
+  width: 42px;
+  height: 46.11px;
+}
+
+.instagram {
+  width: 47px;
+  height: 47px;
+}
+.twitter {
+  width: 48.67px;
+  height: 39.67px;
+}
+.help {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #94a3b8;
+}
+
+@media (max-width: 767px) {
+  .footer-section {
+    margin: 52px 24px 48px;
+  }
+  .covid-image {
+    width: 115px;
+    height: 20px;
+  }
+  .social-logos {
+    margin-top: 13px;
+    width: 200px;
+  }
+  .github {
+    width: 31px;
+    height: 34px;
+  }
+  .instagram {
+    width: 31px;
+    height: 34px;
+  }
+  .twitter {
+    width: 29px;
+    height: 24px;
+  }
+  .help {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+}

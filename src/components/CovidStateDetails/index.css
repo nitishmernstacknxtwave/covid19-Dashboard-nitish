@@ -1,0 +1,155 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .loader-container {
+    width: 70%;
+  }
+}
+
+.state-details-container {
+  padding-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.state-Heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0ea5e9;
+  background-color: rgba(2, 132, 199, 0.16);
+  border-radius: 32px;
+  padding: 10px 20px;
+}
+
+.last-update {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #cbd5e1;
+  margin-left: 5px;
+}
+
+.tested,
+.total-tested {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #94a3b8;
+}
+.ul-c {
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.total-tested {
+  font-size: 26px;
+}
+.tested {
+  text-align: right;
+  height: 10px;
+  font-size: 20px;
+}
+
+.tests-container {
+  margin-top: 20px;
+}
+
+.red {
+  background-color: #331427;
+}
+
+.blue {
+  background-color: #132240;
+}
+
+.green {
+  background-color: #182829;
+}
+
+.grey {
+  background-color: #212230;
+}
+
+@media (max-width: 767px) {
+  .state-details-container {
+    padding-top: 80px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .tests-container {
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+  .total-tested {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .state-Heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0ea5e9;
+    background-color: rgba(2, 132, 199, 0.16);
+    border-radius: 16px;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .last-update,
+  .tested {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .state-heading {
+    font-size: 10px;
+  }
+}
+
+.top {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+@media (max-width: 767px) {
+  .top {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ff073a;
+  }
+}
+.top-stats {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.top-dist-container {
+  margin-left: 130px;
+  width: 100%;
+}

@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+  .district1 {
+    display: flex;
+    width: 149px;
+    align-items: center;
+    margin-right: 20px;
+  }
+}
+
+.district1 {
+  display: flex;
+  width: 210px;
+  align-items: center;
+  margin-right: 70px;
+  list-style-type: none;
+}
+
+.district-cases {
+  font-size: 24px;
+  line-height: 28px;
+  margin-right: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.district-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media (max-width: 767px) {
+  .district-cases,
+  .district-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.report {
+  color: skyblue;
+}
